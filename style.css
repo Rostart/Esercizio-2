@@ -1,0 +1,64 @@
+#timer {
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  font-size: 50px;
+  color: blue;
+}
+#button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.primobottone {
+  color: green;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.secondobottone {
+  color: yellow;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.terzobottone {
+  color: black;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  padding-right: 110px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+.quartobottone {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: blue;
+  font-size: 30px;
+}
+
+.quintobottone {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: red;
+  font-size: 30px;
+}
+
+.sestobottone {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: pink;
+  font-size: 30px;
+}
