@@ -1,64 +1,49 @@
-#timer {
-  position: absolute;
-  top: 40px;
-  right: 70px;
-  font-size: 50px;
-  color: blue;
-}
-#button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-.primobottone {
-  color: green;
-  width: 100px;
-  height: 50px;
-  font-size: 30px;
-  margin-right: 20px;
+.score {
+  float: left;
   margin-left: 20px;
 }
 
-.secondobottone {
+.timer {
+  float: right;
+  margin-right: 20px;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#rosso {
   color: yellow;
-  width: 100px;
-  height: 50px;
-  font-size: 30px;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 
-.terzobottone {
-  color: black;
-  width: 100px;
-  height: 50px;
-  font-size: 30px;
-  padding-right: 110px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-left: 10px;
-}
-
-.quartobottone {
-  margin-right: 20px;
-  margin-left: 20px;
-  color: blue;
-  font-size: 30px;
-}
-
-.quintobottone {
-  margin-right: 20px;
-  margin-left: 20px;
+#giallo {
   color: red;
-  font-size: 30px;
 }
 
-.sestobottone {
-  margin-right: 20px;
-  margin-left: 20px;
+#verde {
   color: pink;
-  font-size: 30px;
+}
+
+#arancione {
+  color: purple;
+}
+
+#blu {
+  color: blue;
+}
+
+#rosa {
+  color: black;
 }
