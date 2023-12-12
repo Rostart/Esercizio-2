@@ -55,6 +55,7 @@ document.querySelector(".buttons").addEventListener("click", (event) => {
   const clickedColor = event.target.id;
   if (clickedColor) {
     updateScore(clickedColor);
+    updateButtons();
   }
 });
 
